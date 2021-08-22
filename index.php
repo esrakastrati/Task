@@ -160,7 +160,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" @click="show3=false; deleteDoc()" class="btn btn-danger">Yes</button>
-                        <button type="button" @click="show3=false" class=" btn btn-info" data-dismiss="modal">No</button>
+                        <button type="button" @click="show3=false" class=" btn btn-primary" data-dismiss="modal">No</button>
                     </div>
                 </div>
             </div>
