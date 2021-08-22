@@ -16,13 +16,13 @@
 <h2> Set up the project </h2>
 
 1. Import all files in c://xampp//htdocs 
-2. Import the documents.sql database
+2. Import the CRUD.sql database found in "Model" folder
 3. Run localhost/Task-main.php in web browser
 
 
 
 
-This is a simple CRUD application
+This is a simple CRUD application, where tables "categories" and "documents" have ONE-TO-MANY relationship
 
 Database Design:
 
@@ -42,6 +42,8 @@ https://user-images.githubusercontent.com/40359556/130366976-496d4313-d4c6-416f-
 
 
 
+
+Note: It is woth mentioning that updating the database without checking the user input is not secure and will lead to SQL
 
 
 
