@@ -45,8 +45,8 @@
 
 
             </div>
-            <div class="col-lg-4"></div>
-            <div class="col-lg-2 mt-6 text-center justify-content-left">
+           <div class="col-lg-5"></div>
+            <div class="col-lg-3 mt-4 text-center justify-content-left">
                 <button v-if="currentCtg.id" @click="show1=true" class="btn btn-outline-dark justify-content-right text-center bg-primary text-light">
 
                     <i class="bi bi-plus-circle"></i>
