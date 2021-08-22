@@ -8,10 +8,15 @@
 3. Bootstrap
 4. MySQL
 
+<h2> Prerequisite </h2>
+
+:red_circle: Apache installed
+:red_circle: Run server
+
 
 
 <h2> Set up the project </h2>
 
-1. Create a database
-2. import the documents.sql file
-3. change <project_path> from URL in js/server.js - line #32, #42, #53, #65, #83, #102 like http://localhost/<project_path>/proccess.php?action-action
+1. import the documents.sql file
+2. Download the files and move them to htdocs 
+3. 
