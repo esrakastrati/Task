@@ -1,6 +1,5 @@
 # Task
 
-
 <h2> Technologies Used </h2>
 
 1. PHP
@@ -14,9 +13,33 @@
 :red_circle: Start apache and MySQL in xampp control panel <br>
 
 
-
 <h2> Set up the project </h2>
 
 1. Import all files in c://xampp//htdocs 
 2. Import the documents.sql database
 3. Run localhost/Task-main.php in web browser
+
+
+
+
+This is a simple CRUD application
+
+Database Design:
+
+
+
+
+Quick Demo Video:
+
+
+
+
+Thank you :)
+
+
+
+
+
+
+
+
