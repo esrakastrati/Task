@@ -22,7 +22,7 @@
 
 
 
-This is a simple CRUD application, where tables "categories" and "documents" have ONE-TO-MANY relationship
+This is a fairly simple CRUD application, where tables "categories" and "documents" have ONE-TO-MANY relationship
 
 Database Design:
 
@@ -38,12 +38,12 @@ Quick Demo Video:
 
 
 
-https://user-images.githubusercontent.com/40359556/130366976-496d4313-d4c6-416f-9cc3-c565925f25fc.mp4
+
+
+https://user-images.githubusercontent.com/40359556/130368205-9c5d801b-c6eb-4270-8c55-78342c4e60e4.mp4
 
 
 
-
-Note: It is woth mentioning that updating the database without checking the user input is not secure and will lead to SQL
 
 
 
