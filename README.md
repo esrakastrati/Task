@@ -26,7 +26,9 @@ This is a simple CRUD application
 
 Database Design:
 
-<img width="519" alt="Screen Shot 2021-08-22 at 2 53 17 PM" src="https://user-images.githubusercontent.com/40359556/130366970-b09118bf-7046-48db-8032-8398fdf52ef9.png">
+
+<img width="339" alt="Screen Shot 2021-08-22 at 3 10 09 PM" src="https://user-images.githubusercontent.com/40359556/130367206-a503d2c4-a29e-4df3-b80b-c368f45ec40a.png">
+
 
 
 
