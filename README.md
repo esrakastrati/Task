@@ -10,13 +10,13 @@
 
 <h2> Prerequisite </h2>
 
-:red_circle: Apache installed
-:red_circle: Run server
+:red_circle: Use XAMPP  <br>
+:red_circle: Start apache and MySQL in xampp control panel <br>
 
 
 
 <h2> Set up the project </h2>
 
-1. import the documents.sql file
-2. Download the files and move them to htdocs 
-3. 
+1. Import all files in c://xampp//htdocs 
+2. Import the documents.sql database
+3. Run localhost/Task-main.php in web browser
