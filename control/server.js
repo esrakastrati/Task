@@ -29,7 +29,7 @@ var app = new Vue({
 
     methods: {
         getDocuments() {
-            axios.get("http://localhost/Task-main/proccess.php?action=read").then(function (response) {
+            axios.get("http://localhost/Task-main/model/proccess.php?action=read").then(function (response) {
                 if (response.data.error) {
                     app.errorMsg = response.data.message;
                 } else {
@@ -39,7 +39,7 @@ var app = new Vue({
         },
         getDocumentsList() {
             var formData = app.toFD(app.currentCtg);
-            axios.post("http://localhost/Task-main/proccess.php?action=readList", formData).then(function (response) {
+            axios.post("http://localhost/Task-main/model/proccess.php?action=readList", formData).then(function (response) {
                 if (response.data.error) {
                     app.errorMsg = response.data.message;
                 } else {
@@ -50,7 +50,7 @@ var app = new Vue({
             })
         },
         getCategory() {
-            axios.get("http://localhost/Task-main/proccess.php?action=read").then(function (response) {
+            axios.get("http://localhost/Task-main/model/proccess.php?action=read").then(function (response) {
                 if (response.data.error) {
                     app.errorMsg = response.data.message;
                 } else {
@@ -62,7 +62,7 @@ var app = new Vue({
         addDoc() {
             app.newDoc.cat_id = app.currentCtg.id;
             var formData = app.toFD(app.newDoc);
-            axios.post("http://localhost/Task-main/proccess.php?action=create", formData).then(function (response) {
+            axios.post("http://localhost/Task-main/model/proccess.php?action=create", formData).then(function (response) {
 
                 if (response.data.error) {
                     app.errorMsg = response.data.error;
@@ -80,7 +80,7 @@ var app = new Vue({
         editDoc() {
             app.currentDoc.cat_id = app.currentCtg.id;
             var formData = app.toFD(app.currentDoc);
-            axios.post("http://localhost/Task-main/proccess.php?action=update", formData).then(function (response) {
+            axios.post("http://localhost/Task-main/model/proccess.php?action=update", formData).then(function (response) {
 
                 if (response.data.error) {
                     app.errorMsg = response.data.error;
@@ -99,7 +99,7 @@ var app = new Vue({
         deleteDoc() {
             app.currentDoc.cat_id = app.currentCtg.id;
             var formData = app.toFD(app.currentDoc);
-            axios.post("http://localhost/Task-main/proccess.php?action=delete", formData).then(function (response) {
+            axios.post("http://localhost/Task-main/model/proccess.php?action=delete", formData).then(function (response) {
 
                 if (response.data.error) {
                     app.errorMsg = response.data.error;
