@@ -15,7 +15,7 @@
 
 <h2> Set up the project </h2>
 
-1. Import all files in c://xampp//htdocs 
+1. Import ZIP file as "Task-main" and move all the files in c://xampp//htdocs 
 2. Import the CRUD.sql database found in "Model" folder
 3. Run localhost/Task-main.php in web browser
 
