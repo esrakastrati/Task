@@ -22,7 +22,7 @@
 
 
 
-This is a fairly simple CRUD application, where tables "categories" and "documents" have ONE-TO-MANY relationship
+This is a CRUD application, where tables "categories" and "documents" have ONE-TO-MANY relationship
 
 Database Design:
 
